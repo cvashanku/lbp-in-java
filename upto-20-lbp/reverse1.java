@@ -1,14 +1,13 @@
-class sum
+class reverse1
 {
  public static void main(String args[])
  {
-  int s=0,n=143,d;
+  int n=123,d;
   while(n!=0)
   {
    d=n%10;
-   s=s+d;
+   System.out.print(d);
    n=n/10;
   }
-    System.out.println(s);
  }
 }
